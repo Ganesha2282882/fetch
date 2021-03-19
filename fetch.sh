@@ -5,5 +5,5 @@ KERNEL=`uname -r`
 UPTIME=`cat /proc/uptime`
 # Show output
 echo 'OS     '$OS''
-echo 'Kernel '$OS''
+echo 'Kernel '$KERNEL''
 echo 'Uptime '$UPTIME''
