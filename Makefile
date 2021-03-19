@@ -5,6 +5,9 @@ fetch:
 
 all: fetch
 
+run: fetch
+	./fetch
+
 install:
 	cp fetch        /usr/local/bin
 	chown root:root /usr/local/bin/fetch
